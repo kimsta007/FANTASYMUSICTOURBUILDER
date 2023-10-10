@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "nodemon src/server/main.js -w src/server",
     "start": "NODE_ENV=production node src/server/main.js",
-    "lint": "eslint --fix --ext .js,.jsx .",
     "build": "vite build"
   },
   "dependencies": {
@@ -24,12 +23,6 @@
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.10",
     "@vitejs/plugin-react": "^3.0.1",
-    "eslint": "^8.51.0",
-    "eslint-config-standard": "^17.1.0",
-    "eslint-plugin-import": "^2.28.1",
-    "eslint-plugin-n": "^16.1.0",
-    "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-react": "^7.33.2",
     "nodemon": "^2.0.20",
     "vite": "^4.4.11"
   }
