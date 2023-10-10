@@ -1,9 +1,9 @@
-import express from 'express'
-import ViteExpress from 'vite-express'
-import { MongoClient } from 'mongodb'
-import dotenv from 'dotenv'
-import cookieSession from 'cookie-session'
-import bcrypt from 'bcryptjs'
+import express from 'express';
+import ViteExpress from 'vite-express';
+import { MongoClient } from 'mongodb';
+import dotenv from 'dotenv';
+import cookieSession from 'cookie-session';
+import bcrypt from 'bcryptjs';
 
 dotenv.config()
 
