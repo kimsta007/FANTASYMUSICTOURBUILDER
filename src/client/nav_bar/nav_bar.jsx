@@ -1,9 +1,8 @@
-import React from "react"
-import {Link} from "react-router-dom"
+import React from 'react'
+import { Link } from 'react-router-dom'
 
-function Navbar() {
-    
-    return (    
+function Navbar () {
+  return (
         <div>
             <div>
                 <Link to = "/">Logout</Link>
@@ -15,7 +14,7 @@ function Navbar() {
                 <Link to = "/music_trends_information">Music Trends Information</Link>
             </div>
         </div>
-    )
+  )
 }
-   
-   export default Navbar
+
+export default Navbar
